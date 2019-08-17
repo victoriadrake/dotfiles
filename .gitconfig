@@ -1,0 +1,25 @@
+
+[user]
+    name = Victoria Drake
+    email = hello@victoria.dev
+[color]
+    diff = auto
+    status = auto
+    branch = auto
+[color "status"]
+    added = green
+    changed = blue
+    untracked = red 
+[color "diff"]
+    meta = yellow
+    old = red 
+    new = green
+[commit]
+    template = ~/.gitmessage
+[core]
+    editor = vim
+[push]
+    followTags = true
+    default = current
+[alias]
+    plog = log --graph --pretty=format:'%C(bold blue)%h%Creset - %C(yellow)%d%Creset %s %C(cyan dim)(%cr)%Creset %n' --abbrev-commit --branches

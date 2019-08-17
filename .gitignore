@@ -1,0 +1,6 @@
+# If you are storing these files in this repo, you are doing it wrong.
+.ssh
+id_rsa*
+*.pub
+.aws
+.bash_history
