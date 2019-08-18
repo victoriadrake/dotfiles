@@ -35,4 +35,3 @@ linkDotfile .bashrc
 linkDotfile .bash_profile
 linkDotfile .gitconfig
 linkDotfile .gitmessage
-source ~/.bashrc
