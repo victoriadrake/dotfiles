@@ -19,14 +19,18 @@ alias gadd='git add'
 alias gcom='git commit'
 alias gsup='git status'
 
+alias pip='pip3'
 alias pym='python3 manage.py'
 alias mkenv='python3 -m venv env'
 alias startenv='source env/bin/activate && which python3'
 alias stopenv='deactivate'
 
+# Use docker without a root-equivalent docker group
+alias docker='sudo docker'
+
 # Show contents of dir after action
 function cd () {
-	builtin cd "$1"
+    builtin cd "$1"
     ls -ACF
 }
 
@@ -113,18 +117,26 @@ gitC="${txtpur}"
 pointerC="${txtwht}"
 normalC="${txtrst}"
 
-# Red name for root
+# Red pointer for root
 if [ "${UID}" -eq "0" ]; then
-  nameC="${txtred}"
+    pointerC="${txtred}"
 fi
 
-# 'Safe' version of __git_ps1 to avoid errors on systems that don't have it
-function gitPrompt {
-  command -v __git_ps1 > /dev/null && __git_ps1 " (%s)"
+gitBranch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 
-export PS1="${pathC}\w ${gitC}\$(gitPrompt)${pointerC}\$${normalC} "
+export PS1="${pathC}\w ${gitC}\$(gitBranch) ${pointerC}\$${normalC} "
 
 # Eddie
 python3 ~/src/ghub/eddie-terminal/randline.py ~/src/ghub/eddie-terminal/greetings.txt Victoria
 
+# oh-my-git prompt
+source ~/.oh-my-git/prompt.sh
+
+VIRTUAL_ENV_DISABLE_PROMPT=true
+function omg_prompt_callback() {
+    if [ -n "${VIRTUAL_ENV}" ]; then
+        echo "\e[0;31m(`basename ${VIRTUAL_ENV}`)\e[0m "
+    fi
+}

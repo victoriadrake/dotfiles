@@ -8,3 +8,4 @@
 * `desktop.sh` is for GNOME desktop settings
 * `setup.sh` runs all the scripts and `upgrade`s
 
+Read the [accompanying article](https://victoria.dev/verbose/how-to-set-up-a-fresh-ubuntu-desktop-using-only-dotfiles-and-bash-scripts/).
