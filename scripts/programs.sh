@@ -7,4 +7,5 @@ cd programs/
 ./python.sh
 ./vsc.sh
 ./vundle.sh
+./sass.sh
 

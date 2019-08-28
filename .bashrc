@@ -25,8 +25,9 @@ alias mkenv='python3 -m venv env'
 alias startenv='source env/bin/activate && which python3'
 alias stopenv='deactivate'
 
-# Use docker without a root-equivalent docker group
+# Use programs without a root-equivalent group
 alias docker='sudo docker'
+alias npm='sudo npm'
 
 # Show contents of dir after action
 function cd () {
@@ -69,6 +70,9 @@ export GOPATH=~/go
 
 # Vim for life
 export EDITOR=/usr/bin/vim
+
+# Bash completion
+source ~/.git-completion.bash
 
 # Color prompt
 export TERM=xterm-256color

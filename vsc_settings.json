@@ -27,7 +27,6 @@
     "python.formatting.blackArgs": [
         "--py36"
     ],
-    "workbench.colorTheme": "Noctis Minimus",
     "window.titleBarStyle": "native",
     "workbench.iconTheme": "vscode-icons",
     "html.format.indentHandlebars": true,
@@ -46,5 +45,10 @@
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
-    }
+    },
+    "workbench.colorTheme": "Noctis Minimus",
+    "cSpell.userWords": [
+        "canonicalization",
+        "executables"
+    ],
 }
