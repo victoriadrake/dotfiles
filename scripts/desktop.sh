@@ -3,6 +3,7 @@
 # Set up the desktop
 gsettings set org.gnome.desktop.wm.keybindings maximize-vertically "['<Alt>v']"
 gsettings set org.gnome.desktop.wm.keybindings maximize-horizontally "['<Alt>h']"
+gsettings set org.gnome.settings-daemon.plugins.media-keys terminal '<Shift><Alt>t'
 gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true
 gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-from 21.0
 gsettings set org.gnome.settings-daemon.plugins.color night-light-schedule-to 6.0

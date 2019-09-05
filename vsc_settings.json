@@ -4,7 +4,7 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 2000,
     "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -1,
     "editor.autoClosingBrackets": true,
     "html.autoClosingTags": false,
     "python.linting.pylintArgs": [
@@ -49,6 +49,10 @@
     "workbench.colorTheme": "Noctis Minimus",
     "cSpell.userWords": [
         "canonicalization",
-        "executables"
+        "cybersecurty",
+        "executables",
+        "unencrypted",
+        "unintuitive"
     ],
+    "vsicons.dontShowNewVersionMessage": true,
 }
