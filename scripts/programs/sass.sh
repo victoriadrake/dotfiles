@@ -1,4 +1,4 @@
 #!/bin/bash
 
-sudo npm install -g sass
+sudo npm install -g sass sass-lint
 

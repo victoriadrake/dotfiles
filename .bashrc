@@ -65,7 +65,7 @@ function glab () {
 }
 
 # Go
-export PATH=$PATH:/usr/local/go/bin:~/.local/bin:$GOPATH/bin
+export PATH=$PATH:/usr/local/bin:/usr/local/go/bin:~/.local/bin:$GOPATH/bin
 export GOPATH=~/go
 
 # Vim for life
