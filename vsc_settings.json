@@ -1,6 +1,6 @@
 {
     "editor.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 14,
+    "editor.fontSize": 16,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 2000,
     "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
@@ -46,12 +46,15 @@
             "source.organizeImports": true
         }
     },
-    "workbench.colorTheme": "Noctis Minimus",
+    "workbench.colorTheme": "Noctis Hibernus",
     "cSpell.userWords": [
+        "anonymize",
+        "anonymized",
         "canonicalization",
         "cybersecurity",
         "cybersecurty",
         "executables",
+        "reassociated",
         "unencrypted",
         "unintuitive"
     ],
@@ -90,4 +93,8 @@
         "yaml",
         "yml"
     ],
+    "explorer.confirmDelete": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "markdown.preview.fontSize": 18,
 }
