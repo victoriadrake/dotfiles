@@ -1,0 +1,117 @@
+{
+    "editor.fontFamily": "'JetBrains Mono','SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 16,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+    "window.zoomLevel": -1,
+    "editor.autoClosingBrackets": true,
+    "html.autoClosingTags": false,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501,W503"
+    ],
+    "[markdown]": {
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 100,
+        "editor.quickSuggestions": false,
+    },
+    "spellchecker.checkInterval": 10000,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--py36"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "beautify.language": {
+        "html": [
+            "htm", "html", "django-html"
+        ]
+    },
+    "[proto3]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "go.formatTool": "goimports",
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "cSpell.userWords": [
+        "NIST",
+        "OWASP",
+        "Treehouses",
+        "YAGNI",
+        "anonymize",
+        "anonymized",
+        "canonicalization",
+        "changelogs",
+        "cybersecurity",
+        "cybersecurty",
+        "distro",
+        "executables",
+        "pentesting",
+        "printf",
+        "reassociated",
+        "strcat",
+        "strcpy",
+        "treehouse",
+        "unencrypted",
+        "unintuitive"
+    ],
+    "vscode_custom_css.imports": [
+        "file:///home/v/src/ghub/dotfiles/vscode/synthwave-x-fluoromachine.css"
+    ],
+    "vscode_custom_css.policy": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "cSpell.enabledLanguageIds": [
+        "asciidoc",
+        "c",
+        "cpp",
+        "csharp",
+        "css",
+        "git-commit",
+        "go",
+        "handlebars",
+        "haskell",
+        "html",
+        "jade",
+        "java",
+        "javascript",
+        "javascriptreact",
+        "json",
+        "jsonc",
+        "latex",
+        "less",
+        "markdown",
+        "php",
+        "plaintext",
+        "pug",
+        "python",
+        "restructuredtext",
+        "rust",
+        "scala",
+        "scss",
+        "text",
+        "typescript",
+        "typescriptreact",
+        "yaml",
+        "yml"
+    ],
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "markdown.preview.fontSize": 18,
+    "window.restoreFullscreen": true,
+    "window.restoreWindows": "none",
+    "window.closeWhenEmpty": true,
+    "window.newWindowDimensions": "inherit",
+    "workbench.colorTheme": "Synthwave x Fluoromachine",
+}

@@ -9,7 +9,7 @@ sudo apt install -y apt-transport-https
 sudo apt update
 sudo apt install -y code
 rm microsoft.gpg
-ln -s $(pwd)/../vsc_settings.json $HOME/.config/Code/User/settings.json
+ln -s $(pwd)/../../vscode/vsc_settings.json $HOME/.config/Code/User/settings.json
 function install {
   name="${1}"
   code --install-extension ${name} --force

@@ -29,6 +29,7 @@ alias stopenv='deactivate'
 # Use programs without a root-equivalent group
 alias docker='sudo docker'
 alias npm='sudo npm'
+alias prtn='sudo protonvpn'
 
 # Show contents of dir after action
 function cd () {
@@ -63,6 +64,11 @@ function hugotheme () {
 function glab () {
     git remote set-url origin --add git@gitlab.com:victoriadrake/"${PWD##*/}".git
     git remote -v
+}
+
+# Markdown link check in a folder, recursive
+function mlc () {
+    find $1 -name \*.md -exec markdown-link-check -p {} \;
 }
 
 # Go
