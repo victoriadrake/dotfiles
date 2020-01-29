@@ -8,7 +8,7 @@ My personal set-up scripts. I wrote about these in this [accompanying article](h
 
 ## Included `scripts/`
 
-- `symlink.sh` sets up symlinks in `$HOME`
+- `symlink.sh` sets up symbolic links in `$HOME`
 - `aptinstall.sh` owns Ubuntu repository installs
 - `programs.sh` leverages progressive command line installation of other software
 - `desktop.sh` champions granular executive desktop environment settings
@@ -32,7 +32,7 @@ gsettings list-recursively org.gnome.Terminal.Legacy.Profile:/org/gnome/terminal
 Back up `gsettings` configuration for `/org/gnome/` to a file, via [`dconf`](https://developer.gnome.org/dconf/unstable/dconf-tool.html):
 
 ```sh
-dconf dump /org/gnome/ > settings.**dconf**
+dconf dump /org/gnome/ > settings.dconf
 ```
 
 Restore `dconf` configurations from a file:

@@ -63,7 +63,7 @@ translate=true
 [desktop/background]
 color-shading-type='solid'
 draw-background=true
-picture-options='zoom'
+picture-options='spanned'
 picture-uri='file:///home/v/desktop.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
@@ -211,7 +211,7 @@ workspaces-only-on-primary=false
 default-compression-format='zip'
 
 [nautilus/preferences]
-default-folder-viewer='icon-view'
+default-folder-viewer='list-view'
 search-filter-time-type='last_modified'
 search-view='list-view'
 
@@ -265,7 +265,7 @@ dynamic-workspaces=true
 workspaces-only-on-primary=false
 
 [software]
-check-timestamp=int64 1580210540
+check-timestamp=int64 1580295681
 
 [system/location]
 enabled=false
