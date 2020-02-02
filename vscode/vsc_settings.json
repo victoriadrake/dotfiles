@@ -1,7 +1,6 @@
 {
     "editor.fontFamily": "'JetBrains Mono','SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontSize": 16,
-    "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 2000,
     "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
     "window.zoomLevel": -1,
@@ -32,7 +31,9 @@
     "html.format.indentInnerHtml": true,
     "beautify.language": {
         "html": [
-            "htm", "html", "django-html"
+            "htm",
+            "html",
+            "django-html"
         ]
     },
     "[proto3]": {
@@ -45,6 +46,7 @@
             "source.organizeImports": true
         }
     },
+    "bracketPairColorizer.forceIterationColorCycle": true,
     "cSpell.userWords": [
         "NIST",
         "OWASP",
@@ -65,10 +67,12 @@
         "strcpy",
         "treehouse",
         "unencrypted",
-        "unintuitive"
+        "unintuitive",
+        "vaporwave",
+        "wirelessly"
     ],
     "vscode_custom_css.imports": [
-        "file:///home/v/src/ghub/dotfiles/vscode/synthwave-x-fluoromachine.css"
+        "file:///home/v/.vscode/extensions/victoriadrake.kabukicho-0.0.1/lights-on.css"
     ],
     "vscode_custom_css.policy": true,
     "vsicons.dontShowNewVersionMessage": true,
@@ -113,5 +117,6 @@
     "window.restoreWindows": "none",
     "window.closeWhenEmpty": true,
     "window.newWindowDimensions": "inherit",
-    "workbench.colorTheme": "Synthwave x Fluoromachine",
+    "workbench.colorTheme": "Kabukichō",
+    "files.autoSave": "afterDelay",
 }

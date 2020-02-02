@@ -2,8 +2,6 @@
 
 Now in new-and-improved *Vaporwave flavor!*
 
-![Gratuitous screenshot](img/screenshot.jpg)
-
 My personal set-up scripts. I wrote about these in this [accompanying article](https://victoria.dev/verbose/how-to-set-up-a-fresh-ubuntu-desktop-using-only-dotfiles-and-bash-scripts/).
 
 ## Included `scripts/`
@@ -43,5 +41,5 @@ dconf load /org/gnome/ < settings.dconf
 
 ## My current themes
 
-- Visual Studio Code: [synthwave-x-fluoromachine](https://github.com/webrender/synthwave-x-fluoromachine) with custom CSS
+- Visual Studio Code: [Kabukichō](https://github.com/victoriadrake/kabukicho-vscode)
 - Desktop environment: [Numix-BLACK-Grape](https://www.pling.com/p/1335655/)
