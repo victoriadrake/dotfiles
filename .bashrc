@@ -7,7 +7,7 @@ HISTFILESIZE=2000
 shopt -s histappend
 
 # Aliases
-alias cp='cp -rv'
+alias cp='cp -Rv'
 alias ls='ls --color=auto -ACF'
 alias ll='ls --color=auto -alF'
 alias grep='grep --color=auto'
@@ -44,6 +44,14 @@ function getgolang () {
     sudo tar -C /usr/local -xzf tmp/go"$@".linux-amd64.tar.gz
     rm -rf tmp/
     go version
+}
+
+# GHCLI install or upgrade
+function getghcli () {
+    wget -q -P tmp/ https://github.com/cli/cli/releases/download/v"$@"/gh_"$@"_linux_amd64.deb
+    cd tmp/ && sudo dpkg -i gh_"$@"_linux_amd64.deb
+    cd .. && rm -rf tmp/
+    gh --version
 }
 
 # Hugo install or upgrade

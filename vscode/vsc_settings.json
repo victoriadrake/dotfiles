@@ -29,11 +29,22 @@
     "workbench.iconTheme": "vscode-icons",
     "html.format.indentHandlebars": true,
     "html.format.indentInnerHtml": true,
+    "beautify.config": {
+        "indent_size": 4,
+        "indent_char": " ",
+        "css": {
+            "indent_size": 2
+        }
+    },
     "beautify.language": {
         "html": [
             "htm",
             "html",
             "django-html"
+        ],
+        "css": [
+            "sass",
+            "scss"
         ]
     },
     "[proto3]": {
@@ -56,15 +67,19 @@
         "anonymized",
         "canonicalization",
         "changelogs",
+        "commoditized",
         "cybersecurity",
         "cybersecurty",
         "distro",
         "executables",
         "pentesting",
+        "prepend",
         "printf",
         "reassociated",
         "strcat",
         "strcpy",
+        "subproblems",
+        "templating",
         "treehouse",
         "unencrypted",
         "unintuitive",
@@ -72,7 +87,7 @@
         "wirelessly"
     ],
     "vscode_custom_css.imports": [
-        "file:///home/v/.vscode/extensions/victoriadrake.kabukicho-0.0.1/lights-on.css"
+        "file:///home/v/src/ghub/kabukicho-vscode/lights-on.css"
     ],
     "vscode_custom_css.policy": true,
     "vsicons.dontShowNewVersionMessage": true,
@@ -117,6 +132,11 @@
     "window.restoreWindows": "none",
     "window.closeWhenEmpty": true,
     "window.newWindowDimensions": "inherit",
-    "workbench.colorTheme": "Kabukichō",
     "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Kabukichō",
+    "sasslint.enable": false,
+    "go.useLanguageServer": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
 }
