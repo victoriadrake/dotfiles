@@ -1,0 +1,24 @@
+[Desktop Entry]
+DefaultProfile=flowers.profile
+
+[Favorite Profiles]
+Favorites=flowers.profile
+
+[KonsoleWindow]
+RemoveWindowTitleBarAndFrame=true
+ShowMenuBarByDefault=false
+
+[MainWindow]
+Height 1152=1116
+Height 1440=1404
+Height 2160=1440
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAADwAAAAhwAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 2048=1024
+Width 2560=1280
+Width 3840=2560
+Window-Maximized 2160x3840=true
+
+[Notification Messages]
+ShowPasteUnprintableWarning=false

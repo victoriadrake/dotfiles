@@ -1,0 +1,17 @@
+[1]
+Description=Window settings for plasma.emojier
+clientmachine=localhost
+clientmachinematch=0
+position=1865,250
+positionrule=3
+size=1024,1122
+sizerule=3
+title=Emoji Picker
+titlematch=0
+types=1
+wmclass=ibus-ui-emojier-plasma plasma.emojier
+wmclasscomplete=true
+wmclassmatch=1
+
+[General]
+count=1

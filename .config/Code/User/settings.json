@@ -1,7 +1,7 @@
 {
     "editor.fontFamily": "'JetBrains Mono','SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontSize": 16,
-    "files.autoSaveDelay": 2000,
+    "files.autoSaveDelay": 1500,
     "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
     "window.zoomLevel": -1,
     "editor.autoClosingBrackets": true,

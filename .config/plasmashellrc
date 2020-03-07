@@ -1,0 +1,26 @@
+[PlasmaRunnerManager]
+LaunchCounts=1 services_breezestyleconfig.desktop,1 baloosearch_/home/v/Pictures,2 services_systemsettings.desktop,2 services_keys.desktop,1 services_kcm_desktoptheme.desktop,1 services_kcm_lookandfeel.desktop,1 services_eog.desktop,1 services_powerdevilprofilesconfig.desktop,1 services_powerdevilactivitiesconfig.desktop,5 services_org.kde.konsole.desktop,4 services_kcm_kscreen.desktop,1 services_kcm_workspace.desktop,1 services_powerdevilglobalconfig.desktop,5 services_firefox.desktop,2 services_kcm_cursortheme.desktop,3 services_kwindecoration.desktop,1 services_code.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaTransientsConfig]
+PreloadWeight=0
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=36
+
+[PlasmaViews][Panel 2][Horizontal2048]
+thickness=36
+
+[PlasmaViews][Panel 2][Horizontal2560]
+thickness=36
+
+[PlasmaViews][Panel 2][Vertical1152]
+thickness=64
+
+[ScreenConnectors]
+0=eDP-1
+1=:0.0
+2=HDMI-1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js

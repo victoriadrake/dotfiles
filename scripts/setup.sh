@@ -1,9 +1,7 @@
 #!/bin/bash
 
-./symlink.sh
 ./aptinstall.sh
 ./programs.sh
-./desktop.sh
 
 # Get all upgrades
 sudo apt upgrade -y
@@ -12,4 +10,4 @@ sudo apt upgrade -y
 source ~/.bashrc
 
 # Fun hello
-figlet "... and we're back!" | lolcat
+figlet "Hello!" | lolcat

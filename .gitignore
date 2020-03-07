@@ -1,6 +1,10 @@
-# If you are storing these files in this repo, you are doing it wrong.
-.ssh
-id_rsa*
+# If you are trying to store these files in this repo, you are doing it wrong.
+*.pem
 *.pub
+*vpn*
 .aws
 .bash_history
+.cert/
+.ssh
+.vsce
+id_rsa*
