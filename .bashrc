@@ -28,7 +28,6 @@ alias stopenv='deactivate'
 
 # Use programs without a root-equivalent group
 alias docker='sudo docker'
-alias npm='sudo npm'
 alias prtn='sudo protonvpn'
 
 # Show contents of dir after action
@@ -147,11 +146,8 @@ gitBranch() {
 
 export PS1="${pathC}\w ${gitC}\$(gitBranch) ${pointerC}\$${normalC} "
 
-# Eddie
-python3 ~/src/ghub/eddie-terminal/randline.py ~/src/ghub/eddie-terminal/greetings.txt Victoria
-
 # oh-my-git prompt
-source ~/.oh-my-git/prompt.sh
+source ${HOME}/.oh-my-git/prompt.sh
 
 VIRTUAL_ENV_DISABLE_PROMPT=true
 function omg_prompt_callback() {
@@ -159,3 +155,8 @@ function omg_prompt_callback() {
         echo "\e[0;31m(`basename ${VIRTUAL_ENV}`)\e[0m "
     fi
 }
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source /home/v/.oh-my-git/prompt.sh

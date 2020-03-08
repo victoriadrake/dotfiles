@@ -24,96 +24,96 @@ IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=42,49,61
-BackgroundNormal=33,38,47
-DecorationFocus=180,142,173
-DecorationHover=94,129,172
-ForegroundActive=94,129,172
+BackgroundAlternate=77,77,77
+BackgroundNormal=68,76,83
+DecorationFocus=158,83,150
+DecorationHover=158,83,150
+ForegroundActive=61,174,233
 ForegroundInactive=189,195,199
-ForegroundLink=94,129,172
+ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
-ForegroundNormal=194,216,223
-ForegroundPositive=93,73,89
+ForegroundNeutral=246,116,0
+ForegroundNormal=239,240,241
+ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [Colors:Complementary]
-BackgroundAlternate=46,53,67
-BackgroundNormal=45,52,65
+BackgroundAlternate=59,64,69
+BackgroundNormal=49,54,59
 DecorationFocus=30,146,255
 DecorationHover=61,174,230
-ForegroundActive=255,170,127
+ForegroundActive=246,116,0
 ForegroundInactive=175,176,179
-ForegroundLink=94,129,172
+ForegroundLink=61,174,230
 ForegroundNegative=237,21,21
 ForegroundNeutral=201,206,59
 ForegroundNormal=239,240,241
-ForegroundPositive=98,77,94
-ForegroundVisited=94,129,172
+ForegroundPositive=17,209,22
+ForegroundVisited=61,174,230
 
 [Colors:Selection]
-BackgroundAlternate=94,129,172
-BackgroundNormal=180,142,173
-DecorationFocus=180,142,173
-DecorationHover=94,129,172
+BackgroundAlternate=29,153,243
+BackgroundNormal=158,83,150
+DecorationFocus=158,83,150
+DecorationHover=158,83,150
 ForegroundActive=252,252,252
 ForegroundInactive=239,240,241
-ForegroundLink=180,142,173
+ForegroundLink=253,188,75
 ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
-ForegroundNormal=33,38,47
-ForegroundPositive=93,73,89
+ForegroundNeutral=246,116,0
+ForegroundNormal=239,240,241
+ForegroundPositive=39,174,96
 ForegroundVisited=189,195,199
 
 [Colors:Tooltip]
-BackgroundAlternate=85,85,127
-BackgroundNormal=33,38,47
-DecorationFocus=180,142,173
-DecorationHover=94,129,172
-ForegroundActive=94,129,172
+BackgroundAlternate=77,77,77
+BackgroundNormal=49,54,59
+DecorationFocus=158,83,150
+DecorationHover=158,83,150
+ForegroundActive=61,174,233
 ForegroundInactive=189,195,199
-ForegroundLink=94,129,172
+ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
-ForegroundNormal=194,216,223
-ForegroundPositive=93,73,89
+ForegroundNeutral=246,116,0
+ForegroundNormal=239,240,241
+ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [Colors:View]
-BackgroundAlternate=45,52,65
-BackgroundNormal=33,38,47
-DecorationFocus=180,142,173
-DecorationHover=94,129,172
-ForegroundActive=94,129,172
+BackgroundAlternate=49,54,59
+BackgroundNormal=43,48,52
+DecorationFocus=158,83,150
+DecorationHover=158,83,150
+ForegroundActive=61,174,233
 ForegroundInactive=189,195,199
-ForegroundLink=94,129,172
+ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
-ForegroundNormal=194,216,223
-ForegroundPositive=93,73,89
+ForegroundNeutral=246,116,0
+ForegroundNormal=239,240,241
+ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [Colors:Window]
-BackgroundAlternate=36,42,52
-BackgroundNormal=33,38,47
-DecorationFocus=180,142,173
-DecorationHover=94,129,172
-ForegroundActive=94,129,172
+BackgroundAlternate=77,77,77
+BackgroundNormal=49,54,59
+DecorationFocus=158,83,150
+DecorationHover=158,83,150
+ForegroundActive=61,174,233
 ForegroundInactive=189,195,199
-ForegroundLink=94,129,172
+ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
-ForegroundNeutral=255,170,127
-ForegroundNormal=194,216,223
-ForegroundPositive=93,73,89
+ForegroundNeutral=246,116,0
+ForegroundNormal=239,240,241
+ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-ColorScheme=Phoenix
-Name=Phoenix
+ColorScheme=ROUNDEDDARK
+Name=ROUNDED
 XftAntialias=true
 XftHintStyle=
 XftSubPixel=none
-dbfile=/home/v/.mozilla/firefox/6vt88tf9.default/places.sqlite
+dbfile=/home/v/.mozilla/firefox/dbpc623z.default/places.sqlite
 shadeSortColumn=true
 widgetStyle=Breeze
 
@@ -122,11 +122,11 @@ Theme=Breeze Phoenix Dark
 
 [KDE]
 ColorScheme=Breeze
-LookAndFeelPackage=Phoenix
+LookAndFeelPackage=com.github.varlesh.rounded
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 contrast=4
-widgetStyle=breeze
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -138,8 +138,9 @@ PathCombo Completionmode=5
 Show Bookmarks=false
 Show Full Path=false
 Show Inline Previews=true
+Show Preview=false
 Show Speedbar=true
-Show hidden files=false
+Show hidden files=true
 Sort by=Name
 Sort directories first=true
 Sort reversed=false
@@ -151,9 +152,9 @@ ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
-activeBackground=33,38,47
-activeBlend=33,38,47
-activeForeground=194,216,223
-inactiveBackground=33,38,47
-inactiveBlend=33,38,47
+activeBackground=49,54,59
+activeBlend=255,255,255
+activeForeground=239,240,241
+inactiveBackground=49,54,59
+inactiveBlend=75,71,67
 inactiveForeground=127,140,141

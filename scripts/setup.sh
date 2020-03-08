@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# Update Kubuntu and get standard repository programs
 ./aptinstall.sh
-./programs.sh
+
+# Run all programs/ install scripts
+for f in programs/*.sh; do bash "$f" -H; done
 
 # Get all upgrades
 sudo apt upgrade -y

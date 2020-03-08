@@ -1,9 +1,15 @@
-[PlasmaRunnerManager]
-LaunchCounts=1 services_breezestyleconfig.desktop,1 baloosearch_/home/v/Pictures,2 services_systemsettings.desktop,2 services_keys.desktop,1 services_kcm_desktoptheme.desktop,1 services_kcm_lookandfeel.desktop,1 services_eog.desktop,1 services_powerdevilprofilesconfig.desktop,1 services_powerdevilactivitiesconfig.desktop,5 services_org.kde.konsole.desktop,4 services_kcm_kscreen.desktop,1 services_kcm_workspace.desktop,1 services_powerdevilglobalconfig.desktop,5 services_firefox.desktop,2 services_kcm_cursortheme.desktop,3 services_kwindecoration.desktop,1 services_code.desktop
-pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+[FileDialogSize]
+Height 1440=480
+Width 2560=640
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
+[KFileDialog Settings]
+Recent Files[$e]=wp4041942-outrun-wallpapers.jpg,file:$HOME/Downloads/retrowave-outrun-mountains-night-3l.jpg,file:$HOME/Downloads/wp4041963-outrun-wallpapers.png,file:$HOME/Downloads/wp4041947-outrun-wallpapers.png,file:$HOME/Downloads/wp4041942-outrun-wallpapers.jpg
+Recent URLs[$e]=file:$HOME/Downloads/
+detailViewIconSize=0
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_kcm_kscreen.desktop,3 services_firefox.desktop,1 services_kwindecoration.desktop,6 services_org.kde.konsole.desktop,2 services_systemsettings.desktop
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=36

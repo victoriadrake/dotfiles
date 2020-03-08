@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "🐋 Installing Docker"
 sudo apt update
 sudo apt-get install -y \
     apt-transport-https \

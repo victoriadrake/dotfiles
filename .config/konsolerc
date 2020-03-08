@@ -1,24 +1,26 @@
 [Desktop Entry]
-DefaultProfile=flowers.profile
+DefaultProfile=mild-outrun.profile
+
+[DownloadDialog Settings]
+Height 1152=1070
+Width 2048=1004
 
 [Favorite Profiles]
-Favorites=flowers.profile
+Favorites=
 
-[KonsoleWindow]
-RemoveWindowTitleBarAndFrame=true
-ShowMenuBarByDefault=false
+[FileLocation]
+scrollbackUseCacheLocation=true
+scrollbackUseSystemLocation=false
 
 [MainWindow]
-Height 1152=1116
-Height 1440=1404
-Height 2160=1440
-MenuBar=Disabled
-State=AAAA/wAAAAD9AAAAAAAADwAAAAhwAAAABAAAAAQAAAAIAAAACPwAAAAA
+Height 1152=1080
+Height 1440=1368
+Height 2160=1044
+State=AAAA/wAAAAD9AAAAAAAABAAAAAQaAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 2048=1024
 Width 2560=1280
-Width 3840=2560
-Window-Maximized 2160x3840=true
+Width 3840=3840
 
 [Notification Messages]
 ShowPasteUnprintableWarning=false
