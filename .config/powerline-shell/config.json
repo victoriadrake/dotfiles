@@ -1,0 +1,14 @@
+{
+  "segments": [
+    "virtual_env",
+    "username",
+    "hostname",
+    "ssh",
+    "cwd",
+    "git",
+    "hg",
+    "jobs",
+    "root"
+  ],
+  "theme": "~/powerline-shell/powerline-shell/themes/outrun.py"
+}

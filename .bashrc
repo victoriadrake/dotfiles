@@ -146,17 +146,15 @@ gitBranch() {
 
 export PS1="${pathC}\w ${gitC}\$(gitBranch) ${pointerC}\$${normalC} "
 
-# oh-my-git prompt
-source ${HOME}/.oh-my-git/prompt.sh
-
-VIRTUAL_ENV_DISABLE_PROMPT=true
-function omg_prompt_callback() {
-    if [ -n "${VIRTUAL_ENV}" ]; then
-        echo "\e[0;31m(`basename ${VIRTUAL_ENV}`)\e[0m "
-    fi
+# Use powerline-shell prompt
+function _update_ps1() {
+    PS1=$(powerline-shell $?)
 }
+
+if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
+    PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
+fi
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-source /home/v/.oh-my-git/prompt.sh

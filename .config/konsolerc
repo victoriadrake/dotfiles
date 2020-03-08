@@ -15,12 +15,12 @@ scrollbackUseSystemLocation=false
 [MainWindow]
 Height 1152=1080
 Height 1440=1368
-Height 2160=1044
+Height 2160=2124
 State=AAAA/wAAAAD9AAAAAAAABAAAAAQaAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 2048=1024
 Width 2560=1280
-Width 3840=3840
+Width 3840=1920
 
 [Notification Messages]
 ShowPasteUnprintableWarning=false
