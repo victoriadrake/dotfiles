@@ -29,6 +29,7 @@ install openvpn
 install tmux
 install tree
 install vim
+install xclip
 
 # Image processing
 install gimp
