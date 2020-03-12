@@ -13,9 +13,9 @@ scrollbackUseCacheLocation=true
 scrollbackUseSystemLocation=false
 
 [MainWindow]
-Height 1152=1080
+Height 1152=1098
 Height 1440=1368
-Height 2160=2124
+Height 2160=2136
 State=AAAA/wAAAAD9AAAAAAAABAAAAAQaAAAABAAAAAQAAAAIAAAACPwAAAAA
 ToolBarsMovable=Disabled
 Width 2048=1024

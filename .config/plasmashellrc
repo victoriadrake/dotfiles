@@ -8,7 +8,7 @@ Recent URLs[$e]=file:$HOME/Downloads/
 detailViewIconSize=0
 
 [PlasmaRunnerManager]
-LaunchCounts=1 services_kcm_kscreen.desktop,3 services_firefox.desktop,1 services_kwindecoration.desktop,6 services_org.kde.konsole.desktop,2 services_systemsettings.desktop
+LaunchCounts=6 services_org.kde.konsole.desktop,2 services_kcm_kscreen.desktop,1 services_kwindecoration.desktop,4 services_systemsettings.desktop,3 services_firefox.desktop,2 services_kcm_driver_manager.desktop
 pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 2][Defaults]
@@ -23,10 +23,25 @@ thickness=36
 [PlasmaViews][Panel 2][Vertical1152]
 thickness=64
 
+[PlasmaViews][Panel 45]
+alignment=132
+
+[PlasmaViews][Panel 45][Defaults]
+maxLength=1920
+minLength=1920
+offset=0
+thickness=30
+
+[PlasmaViews][Panel 45][Horizontal2048]
+alignment=132
+panelVisibility=0
+thickness=30
+
 [ScreenConnectors]
 0=eDP-1
 1=:0.0
 2=HDMI-1
+3=DP-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/unlock_widgets.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js

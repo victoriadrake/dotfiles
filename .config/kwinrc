@@ -65,7 +65,13 @@ CommandWindow2=Activate and pass click
 CommandWindow3=Activate and pass click
 CommandWindowWheel=Scroll
 
+[NightColor]
+Active=true
+LatitudeAuto=38.8579
+LongitudeAuto=-77.0602
+
 [Plugins]
+blurEnabled=true
 coverswitchEnabled=true
 desktopchangeosdEnabled=false
 diminactiveEnabled=true
@@ -74,6 +80,7 @@ forceblurEnabled=true
 glideEnabled=true
 highlightwindowEnabled=true
 kwin4_effect_fadeEnabled=false
+kwin4_effect_fadedesktopEnabled=true
 minimizeallEnabled=false
 slideEnabled=false
 slidebackEnabled=true
@@ -94,7 +101,7 @@ DesktopLayout=org.kde.breeze.desktop
 DesktopListLayout=org.kde.breeze.desktop
 DesktopMode=1
 HighlightWindows=true
-LayoutName=informative
+LayoutName=org.kde.breeze.desktop
 MinimizedMode=0
 MultiScreenMode=0
 ShowDesktopMode=1
@@ -155,4 +162,4 @@ ButtonsOnRight=HIAX
 CloseOnDoubleClickOnMenu=false
 ShowToolTips=true
 library=org.kde.kwin.aurorae
-theme=__aurorae__svg__ROUNDED-DARK
+theme=__aurorae__svg__Aritim-Dark

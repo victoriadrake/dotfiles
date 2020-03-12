@@ -6,6 +6,8 @@ HISTFILESIZE=2000
 # append to the history file instead of overwrite
 shopt -s histappend
 
+ssh-add ~/.ssh/id_rsa
+
 # Aliases
 alias cp='cp -Rv'
 alias ls='ls --color=auto -ACF'

@@ -15,118 +15,122 @@ IntensityEffect=2
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
 Color=112,111,110
-ColorAmount=0.025
+ColorAmount=0.025000000000000001
 ColorEffect=2
-ContrastAmount=0.1
+ContrastAmount=0.10000000000000001
 ContrastEffect=2
 Enable=false
 IntensityAmount=0
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=77,77,77
-BackgroundNormal=68,76,83
-DecorationFocus=158,83,150
-DecorationHover=158,83,150
-ForegroundActive=61,174,233
-ForegroundInactive=189,195,199
+BackgroundAlternate=43,57,72
+BackgroundNormal=43,57,72
+DecorationFocus=76,99,125
+DecorationHover=76,99,125
+ForegroundActive=97,127,159
+ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundVisited=76,99,125
 
 [Colors:Complementary]
-BackgroundAlternate=59,64,69
-BackgroundNormal=49,54,59
-DecorationFocus=30,146,255
-DecorationHover=61,174,230
+BackgroundAlternate=15,30,49
+BackgroundNormal=15,30,49
+DecorationFocus=76,99,125
+DecorationHover=76,99,125
 ForegroundActive=246,116,0
-ForegroundInactive=175,176,179
-ForegroundLink=61,174,230
+ForegroundInactive=163,183,188
+ForegroundLink=17,52,138
 ForegroundNegative=237,21,21
 ForegroundNeutral=201,206,59
 ForegroundNormal=239,240,241
-ForegroundPositive=17,209,22
-ForegroundVisited=61,174,230
+ForegroundPositive=83,83,83
+ForegroundVisited=85,85,255
 
 [Colors:Selection]
-BackgroundAlternate=29,153,243
-BackgroundNormal=158,83,150
-DecorationFocus=158,83,150
-DecorationHover=158,83,150
+BackgroundAlternate=76,99,125
+BackgroundNormal=43,82,120
+DecorationFocus=76,99,125
+DecorationHover=76,99,125
 ForegroundActive=252,252,252
-ForegroundInactive=239,240,241
+ForegroundInactive=211,218,227
 ForegroundLink=253,188,75
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
 ForegroundVisited=189,195,199
 
 [Colors:Tooltip]
-BackgroundAlternate=77,77,77
-BackgroundNormal=49,54,59
-DecorationFocus=158,83,150
-DecorationHover=158,83,150
+BackgroundAlternate=47,52,63
+BackgroundNormal=53,57,69
+DecorationFocus=76,99,125
+DecorationHover=76,99,125
 ForegroundActive=61,174,233
-ForegroundInactive=189,195,199
+ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundVisited=82,148,226
 
 [Colors:View]
-BackgroundAlternate=49,54,59
-BackgroundNormal=43,48,52
-DecorationFocus=158,83,150
-DecorationHover=158,83,150
+BackgroundAlternate=20,26,33
+BackgroundNormal=16,21,26
+DecorationFocus=76,99,125
+DecorationHover=76,99,125
 ForegroundActive=61,174,233
-ForegroundInactive=189,195,199
+ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundVisited=82,148,226
 
 [Colors:Window]
-BackgroundAlternate=77,77,77
-BackgroundNormal=49,54,59
-DecorationFocus=158,83,150
-DecorationHover=158,83,150
-ForegroundActive=61,174,233
-ForegroundInactive=189,195,199
+BackgroundAlternate=47,52,63
+BackgroundNormal=20,26,33
+DecorationFocus=76,99,125
+DecorationHover=76,99,125
+ForegroundActive=97,127,159
+ForegroundInactive=102,106,115
 ForegroundLink=41,128,185
 ForegroundNegative=218,68,83
 ForegroundNeutral=246,116,0
-ForegroundNormal=239,240,241
+ForegroundNormal=211,218,227
 ForegroundPositive=39,174,96
-ForegroundVisited=127,140,141
+ForegroundVisited=76,99,125
+
+[DirSelect Dialog]
+DirSelectDialog Size=828,568
+History Items[$e]=file:$HOME/.local/share/plasma/desktoptheme/Sweet/,file:$HOME/.local/share/plasma/desktoptheme/glassy-kde/Kvantum/Glassy/,file:$HOME/.local/share/plasma/desktoptheme/Glassy/,file:$HOME/.local/share/plasma/desktoptheme/
 
 [General]
-ColorScheme=ROUNDEDDARK
-Name=ROUNDED
-XftAntialias=true
-XftHintStyle=
-XftSubPixel=none
+ColorScheme=AritimDark
+Name=Aritim-Dark
+XftHintStyle=hintslight
+XftSubPixel=rgb
 dbfile=/home/v/.mozilla/firefox/dbpc623z.default/places.sqlite
+fixed=JetBrains Mono,10,-1,5,50,0,0,0,0,0,Regular
 shadeSortColumn=true
 widgetStyle=Breeze
 
 [Icons]
-Theme=Breeze Phoenix Dark
+Theme=candy-icons
 
 [KDE]
 ColorScheme=Breeze
-LookAndFeelPackage=com.github.varlesh.rounded
+LookAndFeelPackage=Aritim-Dark
 ShowIconsInMenuItems=true
 ShowIconsOnPushButtons=true
 contrast=4
-widgetStyle=Breeze
+widgetStyle=breeze
 
 [KFileDialog Settings]
 Allow Expansion=false
@@ -152,9 +156,9 @@ ToolButtonStyle=TextBesideIcon
 ToolButtonStyleOtherToolbars=TextBesideIcon
 
 [WM]
-activeBackground=49,54,59
-activeBlend=255,255,255
-activeForeground=239,240,241
-inactiveBackground=49,54,59
-inactiveBlend=75,71,67
-inactiveForeground=127,140,141
+activeBackground=47,52,63
+activeBlend=47,52,63
+activeForeground=211,218,227
+inactiveBackground=47,52,63
+inactiveBlend=47,52,63
+inactiveForeground=102,106,115

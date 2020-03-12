@@ -11,3 +11,6 @@ source ~/.bashrc
 
 nvm install node
 nvm install-latest-npm
+
+# Required for Hugo
+npm install -g autoprefixer postcss-cli
