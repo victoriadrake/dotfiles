@@ -24,6 +24,7 @@ git config --global alias.goto checkout
 alias gcom='git commit'
 alias gsup='git status'
 alias goto='git checkout'
+alias firewood='for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done'
 
 alias pip='pip3'
 alias pym='python3 manage.py'
