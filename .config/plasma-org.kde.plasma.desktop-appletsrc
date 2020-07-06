@@ -7,7 +7,7 @@ wheel:Vertical;NoModifier=org.kde.switchdesktop
 RightButton;NoModifier=org.kde.contextmenu
 
 [Containments][40]
-ItemGeometriesHorizontal=Applet-66:1616,48,432,208,0;Applet-70:1696,752,320,336,0;
+ItemGeometriesHorizontal=
 activityId=2df0824a-ef7b-4582-91cc-b4158512a5ff
 formfactor=0
 immutability=1
@@ -41,27 +41,6 @@ outlineColor=#8a8a8a
 source=wettercom|weather|Kassel, Hessen, DE|DE0005331;Kassel
 textColor=#caced7
 
-[Containments][40][Applets][66]
-immutability=1
-plugin=org.kde.plasma.digitalclock
-
-[Containments][40][Applets][66][Configuration]
-PreloadWeight=44
-
-[Containments][40][Applets][66][Configuration][Appearance]
-dateFormat=longDate
-fontFamily=JetBrains Mono
-showDate=true
-use24hFormat=2
-
-[Containments][40][Applets][66][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][40][Applets][70]
-immutability=1
-plugin=org.kde.plasma.battery
-
 [Containments][40][ConfigDialog]
 DialogHeight=665
 DialogWidth=1264
@@ -71,7 +50,7 @@ PreloadWeight=0
 
 [Containments][40][General]
 ToolBoxButtonState=topcenter
-ToolBoxButtonX=793
+ToolBoxButtonX=777
 ToolBoxButtonY=30
 pressToMoveHelp=false
 showToolbox=false
@@ -87,7 +66,7 @@ Speed=3
 
 [Containments][40][Wallpaper][org.kde.image][General]
 Blur=true
-Image=file:///home/v/Downloads/retrowave-outrun-mountains-night-3l.jpg
+Image=file:///home/v/Downloads/adrian-infernus-eGvfemlOFCw-unsplash.jpg
 
 [Containments][40][Wallpaper][org.kde.plasma.worldmap][General]
 centerMode=Longitude
@@ -108,7 +87,7 @@ checkedBusyPlay=false
 checkedSmartPlay=true
 
 [Containments][41]
-ItemGeometriesHorizontal=
+ItemGeometriesHorizontal=Applet-66:1616,64,432,208,0;
 activityId=2df0824a-ef7b-4582-91cc-b4158512a5ff
 formfactor=0
 immutability=1
@@ -116,6 +95,23 @@ lastScreen=3
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][41][Applets][66]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][41][Applets][66][Configuration]
+PreloadWeight=20
+
+[Containments][41][Applets][66][Configuration][Appearance]
+dateFormat=longDate
+fontFamily=JetBrains Mono
+showDate=true
+use24hFormat=2
+
+[Containments][41][Applets][66][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][41][ConfigDialog]
 DialogHeight=540
@@ -132,7 +128,7 @@ showToolbox=false
 sortMode=-1
 
 [Containments][41][Wallpaper][org.kde.image][General]
-Image=file:///home/v/Downloads/wp4041963-outrun-wallpapers.png
+Image=file:///home/v/Downloads/retrowave-outrun-mountains-night-3l.jpg
 
 [Containments][45]
 activityId=
@@ -148,7 +144,7 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][45][Applets][46][Configuration]
-PreloadWeight=68
+PreloadWeight=100
 immutability=1
 
 [Containments][45][Applets][46][Configuration][Configuration]
@@ -194,7 +190,7 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][45][Applets][47][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][47][Configuration][Configuration]
@@ -220,7 +216,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][45][Applets][48][Configuration]
-PreloadWeight=18
+PreloadWeight=14
 immutability=1
 
 [Containments][45][Applets][48][Configuration][Configuration]
@@ -234,7 +230,7 @@ immutability=1
 plugin=org.kde.plasma.colorpicker
 
 [Containments][45][Applets][49][Configuration]
-PreloadWeight=23
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][49][Configuration][Configuration]
@@ -258,7 +254,7 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][45][Applets][50][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][50][Configuration][Configuration]
@@ -305,7 +301,7 @@ immutability=1
 plugin=org.kde.plasma.appmenu
 
 [Containments][45][Applets][52][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][52][Configuration][Appearance]
@@ -325,35 +321,12 @@ PreloadWeight=0
 DialogHeight=540
 DialogWidth=720
 
-[Containments][45][Applets][53]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][45][Applets][53][Configuration]
-PreloadWeight=18
-immutability=1
-
-[Containments][45][Applets][53][Configuration][Configuration]
-immutability=1
-
-[Containments][45][Applets][53][Configuration][Configuration][Configuration]
-PreloadWeight=0
-
-[Containments][45][Applets][53][Configuration][Configuration][Configuration][General]
-length=134
-
-[Containments][45][Applets][53][Configuration][Configuration][General]
-length=134
-
-[Containments][45][Applets][53][Configuration][General]
-length=134
-
 [Containments][45][Applets][55]
 immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][45][Applets][55][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][55][Configuration][Configuration]
@@ -372,14 +345,14 @@ length=324
 
 [Containments][45][Applets][55][Configuration][General]
 expanding=false
-length=324
+length=464
 
 [Containments][45][Applets][56]
 immutability=1
 plugin=org.kde.plasma.systemmonitor.cpu
 
 [Containments][45][Applets][56][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][56][Configuration][Configuration]
@@ -397,7 +370,7 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][45][Applets][57][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][57][Configuration][Configuration]
@@ -423,7 +396,7 @@ immutability=1
 plugin=org.kde.plasma.systemmonitor.memory
 
 [Containments][45][Applets][58][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][58][Configuration][ConfigDialog]
@@ -454,7 +427,7 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][45][Applets][59][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][59][Configuration][Configuration]
@@ -480,7 +453,7 @@ immutability=1
 plugin=org.kde.plasma.pager
 
 [Containments][45][Applets][60][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][60][Configuration][Configuration]
@@ -508,7 +481,7 @@ immutability=1
 plugin=org.kde.plasma.panelspacer
 
 [Containments][45][Applets][61][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 immutability=1
 
 [Containments][45][Applets][61][Configuration][Configuration]
@@ -534,11 +507,12 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][45][Applets][63][Configuration]
-PreloadWeight=44
+PreloadWeight=80
 
 [Containments][45][Applets][63][Configuration][Appearance]
 dateFormat=custom
 fontFamily=JetBrains Mono
+showDate=true
 use24hFormat=2
 
 [Containments][45][Applets][63][Configuration][ConfigDialog]
@@ -550,7 +524,21 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][45][Applets][69][Configuration]
-PreloadWeight=44
+PreloadWeight=30
+
+[Containments][45][Applets][71]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][45][Applets][71][Configuration]
+PreloadWeight=60
+
+[Containments][45][Applets][72]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][45][Applets][72][Configuration]
+PreloadWeight=60
 
 [Containments][45][ConfigDialog]
 DialogHeight=84
@@ -560,7 +548,30 @@ DialogWidth=2048
 PreloadWeight=0
 
 [Containments][45][General]
-AppletOrder=46;47;48;49;69;50;52;53;63;55;56;57;58;59;60;61
+AppletOrder=46;47;48;49;69;52;71;72;50;63;55;56;57;58;59;60;61
+
+[Containments][70]
+ItemGeometriesHorizontal=
+activityId=2df0824a-ef7b-4582-91cc-b4158512a5ff
+formfactor=0
+immutability=1
+lastScreen=2
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][70][ConfigDialog]
+DialogHeight=1098
+DialogWidth=1024
+
+[Containments][70][Configuration]
+PreloadWeight=42
+
+[Containments][70][Wallpaper][org.kde.image][General]
+Image=file:///home/v/.local/share/wallpapers/Leaves.jpg
+
+[Containments45Appletsts][52][Configuration][Appearance]
+compactView=true
 
 [ScreenMapping]
 itemsOnDisabledScreens=

@@ -1,15 +1,18 @@
 [FileDialogSize]
+Height 1152=1098
 Height 1440=480
+Width 2048=1940
 Width 2560=640
 
 [KFileDialog Settings]
-Recent Files[$e]=wp4041942-outrun-wallpapers.jpg,file:$HOME/Downloads/retrowave-outrun-mountains-night-3l.jpg,file:$HOME/Downloads/wp4041963-outrun-wallpapers.png,file:$HOME/Downloads/wp4041947-outrun-wallpapers.png,file:$HOME/Downloads/wp4041942-outrun-wallpapers.jpg
+Recent Files[$e]=wp4041942-outrun-wallpapers.jpg,file:$HOME/Downloads/kristine-weilert-Qs-86CdAzK8-unsplash.jpg,file:$HOME/Downloads/erol-ahmed-aIYFR0vbADk-unsplash.jpg,file:$HOME/Downloads/annie-spratt-fEamgBOIMQU-unsplash.jpg,file:$HOME/Downloads/adrian-infernus-eGvfemlOFCw-unsplash.jpg,file:$HOME/Downloads/aaron-burden-yzgF-AQt1sQ-unsplash.jpg,file:$HOME/Downloads/aaron-burden-uyJ-osS2YQI-unsplash.jpg,file:$HOME/Downloads/retrowave-outrun-mountains-night-3l.jpg,file:$HOME/Downloads/wp4041963-outrun-wallpapers.png,file:$HOME/Downloads/wp4041947-outrun-wallpapers.png,file:$HOME/Downloads/wp4041942-outrun-wallpapers.jpg
 Recent URLs[$e]=file:$HOME/Downloads/
 detailViewIconSize=0
+iconViewIconSize=43
 
 [PlasmaRunnerManager]
 LaunchCounts=6 services_org.kde.konsole.desktop,2 services_kcm_kscreen.desktop,1 services_kwindecoration.desktop,4 services_systemsettings.desktop,3 services_firefox.desktop,2 services_kcm_driver_manager.desktop
-pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+pluginWhiteList=services,shell,bookmarks,baloosearch,locations
 
 [PlasmaViews][Panel 2][Defaults]
 thickness=36
@@ -27,13 +30,15 @@ thickness=64
 alignment=132
 
 [PlasmaViews][Panel 45][Defaults]
-maxLength=1920
-minLength=1920
+maxLength=2048
+minLength=2048
 offset=0
 thickness=30
 
 [PlasmaViews][Panel 45][Horizontal2048]
 alignment=132
+maxLength=2048
+minLength=2048
 panelVisibility=0
 thickness=30
 

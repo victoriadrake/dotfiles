@@ -13,11 +13,14 @@ alias cp='cp -Rv'
 alias ls='ls --color=auto -ACF'
 alias ll='ls --color=auto -alF'
 alias grep='grep --color=auto'
+alias grepw='grep --color=auto -Hrnwi'
 alias mkdir='mkdir -pv'
 alias mv='mv -v'
 alias wget='wget -c'
 
-alias gadd='git add'
+git config --global alias.gcom commit
+git config --global alias.gsup status
+git config --global alias.goto checkout
 alias gcom='git commit'
 alias gsup='git status'
 alias goto='git checkout'
@@ -30,6 +33,7 @@ alias stopenv='deactivate'
 
 # Use programs without a root-equivalent group
 alias docker='sudo docker'
+alias docker-compose='sudo docker-compose'
 alias prtn='sudo protonvpn'
 
 # Show contents of dir after action
@@ -160,3 +164,6 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"

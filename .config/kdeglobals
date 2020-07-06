@@ -108,8 +108,8 @@ ForegroundPositive=39,174,96
 ForegroundVisited=76,99,125
 
 [DirSelect Dialog]
-DirSelectDialog Size=828,568
-History Items[$e]=file:$HOME/.local/share/plasma/desktoptheme/Sweet/,file:$HOME/.local/share/plasma/desktoptheme/glassy-kde/Kvantum/Glassy/,file:$HOME/.local/share/plasma/desktoptheme/Glassy/,file:$HOME/.local/share/plasma/desktoptheme/
+DirSelectDialog Size=844,598
+History Items[$e]=file:$HOME/Pictures,file:$HOME/.local/share/plasma/desktoptheme/Sweet/,file:$HOME/.local/share/plasma/desktoptheme/glassy-kde/Kvantum/Glassy/,file:$HOME/.local/share/plasma/desktoptheme/Glassy/,file:$HOME/.local/share/plasma/desktoptheme/
 
 [General]
 ColorScheme=AritimDark
@@ -149,7 +149,7 @@ Sort by=Name
 Sort directories first=true
 Sort reversed=false
 Speedbar Width=138
-View Style=DetailTree
+View Style=Simple
 
 [Toolbar style]
 ToolButtonStyle=TextBesideIcon

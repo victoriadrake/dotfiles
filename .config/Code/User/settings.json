@@ -1,9 +1,8 @@
 {
     "editor.fontFamily": "'JetBrains Mono','SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
-    "editor.fontSize": 16,
     "files.autoSaveDelay": 1500,
     "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "editor.autoClosingBrackets": true,
     "html.autoClosingTags": false,
     "python.linting.pylintArgs": [
@@ -62,28 +61,44 @@
         "NIST",
         "OWASP",
         "Treehouses",
+        "Unfavorite",
         "YAGNI",
         "anonymize",
         "anonymized",
+        "applybyapi",
+        "asynchronicity",
+        "caffeination",
         "canonicalization",
         "changelogs",
         "commoditized",
+        "crossposter",
         "cybersecurity",
         "cybersecurty",
         "distro",
         "executables",
+        "isort",
+        "malinois",
+        "multifactor",
         "pentesting",
+        "performant",
         "prepend",
         "printf",
         "reassociated",
+        "repos",
+        "shortcode",
+        "signup",
+        "stateful",
         "strcat",
         "strcpy",
         "subproblems",
         "templating",
+        "tinymce",
         "treehouse",
         "unencrypted",
+        "unergonomic",
         "unintuitive",
         "vaporwave",
+        "victoriadrake",
         "wirelessly"
     ],
     "vscode_custom_css.imports": [
@@ -139,4 +154,11 @@
     "[javascript]": {
         "editor.defaultFormatter": "HookyQR.beautify"
     },
+    "highlightLine.borderColor": "#65EAB9",
+    "highlightLine.borderStyle": "solid",
+    "highlightLine.borderWidth": "1px",
+    "markdown.extension.toc.levels": "2..6",
+    "[sass]": {
+        "editor.defaultFormatter": "syler.sass-indented"
+    }
 }
