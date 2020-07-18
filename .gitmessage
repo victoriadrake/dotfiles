@@ -1,5 +1,7 @@
-
-
 # If applied, this commit will...
-# [Add/Fix/Remove/Update/Refactor/Document] [issue #id] [summary]
+# [Add/Fix/Document/Refactor/Update] [summary]
 
+# Optional list of changes in point form
+
+# Closes #[issue id]
+# Co-authored-by: Name <github-username@users.noreply.github.com>

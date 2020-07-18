@@ -1,6 +1,9 @@
 #!/bin/bash
 
-sudo add-apt-repository ppa:kubuntu-ppa/backports
+# Copy dotfiles
+./copy.sh
+
+# Update Ubuntu and get standard repository programs
 sudo apt update && sudo apt full-upgrade -y
 
 function install {
@@ -16,6 +19,7 @@ function install {
 
 # Basics
 install awscli
+install chrome-gnome-shell
 install chromium-browser
 install curl
 install dialog
@@ -23,13 +27,11 @@ install exfat-utils
 install file
 install git
 install htop
-install jq
 install nmap
 install openvpn
-install tmux
 install tree
 install vim
-install xclip
+install wget
 
 # Image processing
 install gimp
@@ -39,3 +41,14 @@ install optipng
 # Fun stuff
 install figlet
 install lolcat
+
+# Run all scripts in programs/
+for f in programs/*.sh; do bash "$f" -H; done
+
+# Get all upgrades
+sudo apt upgrade -y
+sudo apt autoremove -y
+
+# Fun hello
+figlet "Hello!" | lolcat
+

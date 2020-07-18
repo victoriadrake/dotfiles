@@ -6,8 +6,6 @@ HISTFILESIZE=2000
 # append to the history file instead of overwrite
 shopt -s histappend
 
-ssh-add ~/.ssh/id_rsa
-
 # Aliases
 alias cp='cp -Rv'
 alias ls='ls --color=auto -ACF'
@@ -72,12 +70,6 @@ function gethugo () {
 # Hugo site from exampleSite in themes/
 function hugotheme () {
     HUGO_THEME="$1" hugo "${@:2}" --themesDir ../.. -v
-}
-
-# Add GitLab remote to cwd git
-function glab () {
-    git remote set-url origin --add git@gitlab.com:victoriadrake/"${PWD##*/}".git
-    git remote -v
 }
 
 # Markdown link check in a folder, recursive
@@ -165,6 +157,7 @@ fi
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"

@@ -129,3 +129,4 @@ nmap <Leader>b :!echo <C-R><C-W> \| base64 -d<CR>
 
 " grep recursively for word under cursor
 nmap <Leader>g :tabnew\|read !grep -Hnr '<C-R><C-W>'<CR>
+
