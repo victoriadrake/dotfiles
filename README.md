@@ -1,4 +1,4 @@
-# Dotfiles and set up scripts for my Linux 💜 machine
+# Ubuntu 19.10 Dotfiles
 
 Now in new-and-improved *Vaporwave flavor!*
 
