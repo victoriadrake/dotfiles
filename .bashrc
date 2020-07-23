@@ -14,6 +14,7 @@ alias grep='grep --color=auto'
 alias grepw='grep --color=auto -Hrnwi'
 alias mkdir='mkdir -pv'
 alias mv='mv -v'
+alias weather='curl wttr.in/?0'
 alias wget='wget -c'
 
 git config --global alias.gcom commit
