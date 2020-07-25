@@ -80,13 +80,13 @@ done
 Optionally, load `settings.dconf` with:
 
 ```sh
-dconf load /org/gnome/ < settings.dconf
+dconf load /org/gnome/ < .config/dconf/settings.dconf
 ```
 
 Back up new settings with:
 
 ```sh
-dconf dump /org/gnome/ > settings.dconf
+dconf dump /org/gnome/ > .config/dconf/settings.dconf
 ```
 
 Run `man dconf` on your machine for more.

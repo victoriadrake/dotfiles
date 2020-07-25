@@ -1,9 +1,9 @@
 [desktop/background]
-color-shading-type='solid'
+color-shading-type='vertical'
 picture-options='zoom'
 picture-uri=''
-primary-color='#000000000000'
-secondary-color='#000000000000'
+primary-color='#918EF4'
+secondary-color='#6F9CEB'
 
 [desktop/interface]
 clock-show-weekday=true
@@ -12,35 +12,14 @@ gtk-theme='Yaru-dark'
 show-battery-percentage=true
 
 [desktop/screensaver]
-color-shading-type='solid'
+color-shading-type='vertical'
 picture-options='zoom'
 picture-uri=''
-primary-color='#000000000000'
-secondary-color='#000000000000'
+primary-color='#918EF4'
+secondary-color='#6F9CEB'
 
 [mutter]
 workspaces-only-on-primary=false
-
-[shell]
-enabled-extensions=['emoji-selector@maestroschan.fr', 'ubuntu-appindicators@ubuntu.com', 'ubuntu-dock@ubuntu.com', 'clipboard-indicator@tudmotu.com', 'taskicons@tttom64.github.com']
-favorite-apps=['firefox.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Nautilus.desktop']
-
-[shell/extensions/dash-to-dock]
-preferred-monitor=0
-
-[shell/extensions/desktop-icons]
-show-home=false
-show-trash=false
-
-[shell/extensions/emoji-selector]
-recently-used=['😆', '😀', '♥', '🦄', '👉', '🌱', '🖊', '🥚', '🍧', '🍰', '💜']
-
-[software]
-check-timestamp=int64 1595202906
-online-updates-timestamp=int64 1595202908
-
-[system/location]
-enabled=false
 
 [terminal/legacy/profiles:]
 default='a58efda4-d791-431e-891b-13daea91a45e'

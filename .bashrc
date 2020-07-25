@@ -16,6 +16,7 @@ alias mkdir='mkdir -pv'
 alias mv='mv -v'
 alias weather='curl wttr.in/?0'
 alias wget='wget -c'
+alias tree="tree -aI 'test*|.git|node_modules|resources'"
 
 git config --global alias.gcom commit
 git config --global alias.gsup status
