@@ -10,7 +10,7 @@ save-dconf: ## Save dconf settings to .config/dconf/settings.dconf
 save-vsce: ## Save a list of VSC extensions to .config/Code/extensions.txt
 	ls .vscode/extensions/ > ~/.config/Code/extensions.txt
 
-save-all: save-dconf save-vsce ## Update dconf and vsc extensions files
+save: save-dconf save-vsce ## Update dconf and vsc extensions files
 
 update: ## Do apt upgrade and autoremove
 	sudo apt update && sudo apt upgrade -y

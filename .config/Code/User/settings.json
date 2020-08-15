@@ -1,110 +1,64 @@
 {
-    "editor.fontFamily": "'JetBrains Mono','SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
-    "files.autoSaveDelay": 1500,
-    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
-    "window.zoomLevel": 0,
-    "editor.autoClosingBrackets": "always",
-    "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django"
-    ],
-    "[markdown]": {
-        "editor.wordWrap": "bounded",
-        "editor.wordWrapColumn": 100,
-        "editor.quickSuggestions": false,
+    "[go]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
+        "editor.formatOnSave": true
     },
-    "markdownlint.ignore": [
-        "CHANGELOG.md"
-    ],
-    "spellchecker.checkInterval": 15000,
-    "editor.detectIndentation": false,
-    "editor.formatOnSave": true,
-    "editor.formatOnType": true,
-    "workbench.iconTheme": "vscode-icons",
-    "html.format.indentHandlebars": true,
-    "html.format.indentInnerHtml": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[markdown]": {
+        "editor.quickSuggestions": false,
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 100
+    },
+    "[sass]": {
+        "editor.defaultFormatter": "syler.sass-indented"
+    },
     "beautify.config": {
-        "indent_size": 4,
-        "indent_char": " ",
         "css": {
             "indent_size": 2
+        },
+        "indent_char": " ",
+        "indent_size": 4,
+        "js": {
+            "indent_size": 2,
+            "space_after_anon_function": true,
+            "space_after_named_function": true,
+            "space_before_conditional": true,
+            "space_in_paren": false
         }
     },
     "beautify.language": {
+        "css": [
+            "sass",
+            "scss"
+        ],
         "html": [
             "htm",
             "html",
             "django-html"
-        ],
-        "css": [
-            "sass",
-            "scss"
         ]
     },
-    "go.formatTool": "goimports",
-    "[go]": {
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        }
-    },
-    "bracketPairColorizer.forceIterationColorCycle": true,
-    "cSpell.userWords": [
-        "Beeblebrox",
-        "CloudFormation",
-        "Dalek",
-        "FIPS",
-        "NIST",
-        "OWASP",
-        "Pipfile",
-        "YAGNI",
-        "anonymize",
-        "anonymized",
-        "asynchronicity",
-        "boto",
-        "botocore",
-        "caffeination",
-        "canonicalization",
-        "changelogs",
-        "commoditized",
-        "cybersecurity",
-        "distro",
-        "dotfiles",
-        "executables",
-        "fooey",
-        "isort",
-        "markdownlint",
-        "multifactor",
-        "pentesting",
-        "performant",
-        "pipenv",
-        "postgres",
-        "powerline",
-        "prepend",
-        "printf",
-        "pylint",
-        "pytest",
-        "pytz",
-        "reassociated",
-        "rebased",
-        "repos",
-        "shortcode",
-        "soteria",
-        "stateful",
-        "strcat",
-        "strcpy",
-        "struct",
-        "stubber",
-        "subproblems",
-        "templating",
-        "tinymce",
-        "treehouse",
-        "unencrypted",
-        "unintuitive",
-        "vaporwave",
-        "wirelessly"
+    "bracketPairColorizer.activeScopeCSS": [
+        "backgroundColor : {color}",
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}; opacity: 0.5"
     ],
-    "vscode_custom_css.policy": true,
-    "vsicons.dontShowNewVersionMessage": true,
+    "bracketPairColorizer.forceIterationColorCycle": true,
+    "bracketPairColorizer.forceUniqueOpeningColor": true,
+    "bracketPairColorizer.highlightActiveScope": true,
     "cSpell.enableFiletypes": [
         "asciidoc",
         "c",
@@ -139,53 +93,121 @@
         "yaml",
         "yml"
     ],
-    "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "markdown.preview.fontSize": 21,
-    "window.restoreFullscreen": true,
-    "window.restoreWindows": "none",
-    "window.closeWhenEmpty": true,
-    "window.newWindowDimensions": "inherit",
-    "files.autoSave": "afterDelay",
-    "workbench.colorTheme": "Kabukichō",
-    "sasslint.enable": false,
-    "go.useLanguageServer": true,
-    "[javascript]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "debug.console.fontSize": 16,
-    "[json]": {
-        "editor.defaultFormatter": "HookyQR.beautify"
-    },
-    "bracketPairColorizer.forceUniqueOpeningColor": true,
-    "bracketPairColorizer.activeScopeCSS": [
-        "backgroundColor : {color}",
-        "borderStyle : solid",
-        "borderWidth : 1px",
-        "borderColor : {color}; opacity: 0.5"
+    "cSpell.userWords": [
+        "Beeblebrox",
+        "CloudFormation",
+        "Dalek",
+        "FIPS",
+        "Makefiles",
+        "NIST",
+        "Neopets",
+        "OWASP",
+        "POSIX",
+        "Pipfile",
+        "YAGNI",
+        "anonymize",
+        "anonymized",
+        "asynchronicity",
+        "autoremove",
+        "boto",
+        "botocore",
+        "caffeination",
+        "canonicalization",
+        "changelogs",
+        "commoditized",
+        "cybersecurity",
+        "distro",
+        "dotfiles",
+        "executables",
+        "fooey",
+        "gofakeit",
+        "isort",
+        "markdownlint",
+        "multifactor",
+        "pentesting",
+        "performant",
+        "pipenv",
+        "postgres",
+        "powerline",
+        "prepend",
+        "printf",
+        "pylint",
+        "pytest",
+        "pytz",
+        "readfile",
+        "reassociated",
+        "rebased",
+        "repos",
+        "shortcode",
+        "shortcodes",
+        "soteria",
+        "stateful",
+        "strcat",
+        "strcpy",
+        "struct",
+        "stubber",
+        "subproblems",
+        "templating",
+        "tinymce",
+        "treehouse",
+        "underuse",
+        "unencrypted",
+        "unintuitive",
+        "vaporwave",
+        "wirelessly"
     ],
+    "debug.console.fontSize": 16,
+    "editor.autoClosingBrackets": "always",
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "'JetBrains Mono','SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
     "editor.matchBrackets": "never",
-    "bracketPairColorizer.highlightActiveScope": true,
-    "python.formatting.provider": "black",
-    "python.analysis.logLevel": "Trace",
-    "python.linting.mypyEnabled": true,
-    "[jsonc]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "standard.autoFixOnSave": true,
-    "html.format.endWithNewline": true,
     "files.associations": {
         "**/*.html": "html",
-        "**/templates/**/*.html": "django-html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
         "**/templates/**/*": "django-txt",
-        "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+        "**/templates/**/*.html": "django-html"
     },
-    "python.jediEnabled": false,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1500,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
     "highlightLine.borderWidth": "1px",
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
+    "html.format.endWithNewline": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
     "markdown.extension.toc.levels": "2..6",
+    "markdown.preview.fontSize": 21,
+    "markdownlint.config": {
+        "line-length": false,
+        "no-duplicate-header": false,
+        "no-emphasis-as-header": false,
+        "no-inline-html": false,
+        "ul-style": false
+    },
+    "markdownlint.ignore": [
+        "CHANGELOG.md"
+    ],
+    "python.analysis.logLevel": "Trace",
+    "python.formatting.provider": "black",
     "python.languageServer": "Microsoft",
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django"
+    ],
     "python.showStartPage": false,
+    "sasslint.enable": false,
+    "standard.autoFixOnSave": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.closeWhenEmpty": true,
+    "window.newWindowDimensions": "inherit",
+    "window.restoreFullscreen": true,
+    "window.restoreWindows": "none",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Kabukichō",
+    "workbench.iconTheme": "vscode-icons"
 }

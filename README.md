@@ -32,14 +32,14 @@ cd dotfiles/scripts/
 ./install.sh
 ```
 
-Set up [powerline-shell](https://github.com/b-ryan/powerline-shell):
+If you like, set up [powerline-shell](https://github.com/b-ryan/powerline-shell):
 
 ```sh
 cd powerline-shell/
 sudo python3 setup.py install
 ```
 
-Then restart your terminal to see changes, or run:
+Uncomment the relevant lines in `.bashrc`, then restart your terminal to see changes, or run:
 
 ```sh
 cd ~
@@ -90,6 +90,10 @@ dconf dump /org/gnome/ > .config/dconf/settings.dconf
 ```
 
 Run `man dconf` on your machine for more.
+
+## Your personal CLI tool Makefile
+
+See the Makefile in this repository for some helpful command aliases. Read about [self-documenting Makefiles on my blog](https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/).
 
 ## Recommended additions
 
