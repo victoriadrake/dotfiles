@@ -18,10 +18,19 @@ alias weather='curl wttr.in/?0'
 alias wget='wget -c'
 alias tree="tree -aI 'test*|.git|node_modules|resources'"
 
+if [ -f ~/.git-completion.bash ]; then
+    . ~/.git-completion.bash
+
+    # Add git completion to aliases
+    __git_complete goto _git_checkout
+fi
+
 alias gcom='git commit'
 alias gsup='git status'
 alias goto='git checkout'
+alias branches='git branch -v'
 alias firewood='for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done'
+alias remotes='git remote -v'
 
 alias pip='pip3'
 alias pym='python3 manage.py'
