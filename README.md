@@ -1,20 +1,16 @@
-# Dotfiles for Ubuntu 💜
+# Dotfiles for Pop!_OS
 
-My preferred starting configuration for Ubuntu Desktop. Current version 20.04 Focal Fossa.
+My preferred starting configuration. Currently using [Pop!_OS 20.10](https://pop.system76.com/).
 
-The [installation script included](https://github.com/victoriadrake/dotfiles/blob/ubuntu-20.04/scripts/install.sh) will install a suggested serving of programs and applications, found within the `scripts/` directory. Please verify that you want these before running the script.
+The installation script (`scripts/install.sh`) will install a suggested serving of programs and applications using scripts in the `scripts/programs/` directory. Please verify that you want these before running the script.
 
-Add or delete files in `scripts/install.sh` and `scripts/programs/` to modify your installation.
+Add or delete programs in `scripts/install.sh` and `scripts/programs/` to modify your installation.
 
 ## Usage
 
-After installing your fresh OS, do:
+After installing your fresh OS, [create any SSH keys](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) you need to access GitHub.
 
-```sh
-sudo apt install git vim -y
-```
-
-Use Vim to create any SSH keys you need to access GitHub, and remember to run `ssh-add` as well as `chmod 600 <key_name>`. Then clone this repository:
+If not generating new keys, place the ones you need in `.ssh/`. Remember to run `ssh-add` as well as `chmod 600 <key_name>`. Then clone this repository:
 
 ```sh
 git clone git@github.com:victoriadrake/dotfiles.git
@@ -56,7 +52,7 @@ Given a list of repository URLs, `gh-repos.txt`, run:
 xargs -n1 git clone < gh-repos.txt
 ```
 
-Use the [`firewood` Bash alias](https://github.com/victoriadrake/dotfiles/blob/ubuntu-20.04/.bashrc#L27) to collect remote branches.
+Use the `firewood` Bash alias (see `.bashrc`) to collect remote branches.
 
 See [How to write Bash one-liners for cloning and managing GitHub and GitLab repositories](https://victoria.dev/blog/how-to-write-bash-one-liners-for-cloning-and-managing-github-and-gitlab-repositories/) for more.
 

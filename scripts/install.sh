@@ -20,9 +20,7 @@ function install {
 # Basics
 install awscli
 install chrome-gnome-shell
-install chromium-browser
 install curl
-install dialog
 install exfat-utils
 install file
 install git
@@ -38,17 +36,9 @@ install gimp
 install jpegoptim
 install optipng
 
-# Fun stuff
-install figlet
-install lolcat
-
 # Run all scripts in programs/
 for f in programs/*.sh; do bash "$f" -H; done
 
 # Get all upgrades
 sudo apt upgrade -y
 sudo apt autoremove -y
-
-# Fun hello
-figlet "Hello!" | lolcat
-

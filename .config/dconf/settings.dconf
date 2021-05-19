@@ -1,56 +1,35 @@
 [desktop/background]
-color-shading-type='vertical'
+color-shading-type='solid'
 picture-options='zoom'
-picture-uri=''
-primary-color='#918EF4'
-secondary-color='#6F9CEB'
+picture-uri='file:///usr/share/backgrounds/pop/kate-hazen-pop-m3lvin.png'
+primary-color='#000000'
+secondary-color='#000000'
 
 [desktop/interface]
-clock-show-weekday=true
+clock-format='24h'
 gtk-im-module='gtk-im-context-simple'
-gtk-theme='Yaru-dark'
+gtk-theme='Pop'
 show-battery-percentage=true
 
 [desktop/screensaver]
-color-shading-type='vertical'
+color-shading-type='solid'
 picture-options='zoom'
-picture-uri=''
-primary-color='#918EF4'
-secondary-color='#6F9CEB'
+picture-uri='file:///usr/share/backgrounds/pop/kate-hazen-pop-m3lvin.png'
+primary-color='#000000'
+secondary-color='#000000'
 
-[mutter]
-workspaces-only-on-primary=false
+[shell/extensions/pop-shell]
+active-hint=true
+hint-color-rgba='rgb(108,153,251)'
+tile-by-default=true
 
-[terminal/legacy/profiles:]
-default='a58efda4-d791-431e-891b-13daea91a45e'
-list=['d8361cd5-5e7f-45fa-9761-add4168f7869', 'a58efda4-d791-431e-891b-13daea91a45e']
+[system/location]
+enabled=false
 
-[terminal/legacy/profiles:/:a58efda4-d791-431e-891b-13daea91a45e]
-allow-bold=true
-background-color='#0d0d19192626'
-bold-color='#d9d9e6e6f2f2'
-bold-color-same-as-fg=true
-foreground-color='#d9d9e6e6f2f2'
-highlight-background-color='#'
-highlight-colors-set=true
-highlight-foreground-color='#'
-palette=['#000000000000', '#b8b87a7a7a7a', '#7a7ab8b87a7a', '#b8b8b8b87a7a', '#7a7a7a7ab8b8', '#b8b87a7ab8b8', '#7a7ab8b8b8b8', '#d9d9d9d9d9d9', '#262626262626', '#dbdbbdbdbdbd', '#bdbddbdbbdbd', '#dbdbdbdbbdbd', '#bdbdbdbddbdb', '#dbdbbdbddbdb', '#bdbddbdbdbdb', '#ffffffffffff']
-use-theme-background=false
-use-theme-colors=false
+[terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(1,22,41)'
+background-transparency-percent=14
+font='Space Mono for Powerline 12'
+palette=['rgb(51,51,51)', 'rgb(204,0,0)', 'rgb(78,154,6)', 'rgb(196,160,0)', 'rgb(65,127,207)', 'rgb(117,80,123)', 'rgb(6,152,154)', 'rgb(211,215,207)', 'rgb(136,128,124)', 'rgb(241,93,34)', 'rgb(115,196,143)', 'rgb(255,206,81)', 'rgb(72,185,199)', 'rgb(173,127,168)', 'rgb(52,226,226)', 'rgb(238,238,236)']
 use-theme-transparency=false
-visible-name='Miu'
-
-[terminal/legacy/profiles:/:d8361cd5-5e7f-45fa-9761-add4168f7869]
-allow-bold=true
-background-color='#2e2e2e2e3535'
-bold-color='#ffffffffffff'
-bold-color-same-as-fg=true
-foreground-color='#ffffffffffff'
-highlight-background-color='#'
-highlight-colors-set=true
-highlight-foreground-color='#'
-palette=['#000000000000', '#8d8d53534e4e', '#4e4e8d8d5353', '#88888d8d4e4e', '#53534e4e8d8d', '#8d8d4e4e8888', '#4e4e88888d8d', '#ffffffffffff', '#000000000000', '#b5b57d7d7878', '#7878b5b57d7d', '#b0b0b5b57878', '#7d7d7878b5b5', '#b5b57878b0b0', '#7878b0b0b5b5', '#ffffffffffff']
-use-theme-background=false
-use-theme-colors=false
-use-theme-transparency=false
-visible-name='Tin'
+use-transparent-background=true
