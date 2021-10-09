@@ -1,0 +1,22 @@
+[alias]
+    # Adapted from https://blog.jez.io/cli-code-review/
+    # List files which have changed since BASE
+    # Set BASE in shell configuration or before the command
+    files = !git diff --name-only $(git merge-base HEAD \"$BASE\")
+
+    # With stat for interactive use
+    stat = !git diff --stat $(git merge-base HEAD \"$BASE\")
+    
+    # Put heatmap on your path:
+    # https://github.com/jez/git-heatmap/blob/master/git-heatmap
+    heatmap = git-heatmap
+   
+    # Open all files changed since BASE in Vim tabs
+    # Then, run fugitive's :Gdiff in each tab, and finally
+    # tell vim-gitgutter to show +/- for changes since BASE
+    review = !vim -p $(git files) +\"tabdo Gdiff $BASE\" +\"let g:gitgutter_diff_base = '$BASE'\"
+
+    # Same as the above, except specify names of files as arguments,
+    # instead of opening all files:
+    # git reviewone foo.js bar.js
+    reviewone = !vim -p +\"tabdo Gdiff $BASE\" +\"let g:gitgutter_diff_base = '$BASE'\"

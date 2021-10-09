@@ -14,6 +14,8 @@ Plugin 'VundleVim/Vundle.vim'
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
 " use plugin on GitHub repo
+Plugin 'airblade/vim-gitgutter'
+Plugin 'jez/vim-colors-solarized'
 Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
