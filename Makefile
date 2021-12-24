@@ -15,4 +15,3 @@ save: save-dconf save-vsce ## Update dconf and vsc extensions files
 update: ## Do apt upgrade and autoremove
 	sudo apt update && sudo apt upgrade -y
 	sudo apt autoremove -y
-

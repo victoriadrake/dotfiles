@@ -1,6 +1,6 @@
-# Dotfiles for Pop!_OS
+# Dotfiles for Ubuntu 21.10
 
-My preferred starting configuration. Currently using [Pop!_OS 20.10](https://pop.system76.com/).
+My preferred starting configuration. Currently using [Ubuntu 21.10 Impish Indri](https://ubuntu.com/download/desktop).
 
 The installation script (`scripts/install.sh`) will install a suggested serving of programs and applications using scripts in the `scripts/programs/` directory. Please verify that you want these before running the script.
 
@@ -8,7 +8,7 @@ Add or delete programs in `scripts/install.sh` and `scripts/programs/` to modify
 
 ## Usage
 
-After installing your fresh OS, [create any SSH keys](https://docs.github.com/en/github-ae@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) you need to access GitHub.
+After installing your fresh OS, [create any SSH keys](https://docs.github.com/articles/generating-an-ssh-key/) you need to access GitHub. [Here's a script to help](scripts/keygen.sh) with that.
 
 If not generating new keys, place the ones you need in `.ssh/`. Remember to run `ssh-add` as well as `chmod 600 <key_name>`. Then clone this repository:
 
@@ -90,9 +90,3 @@ Run `man dconf` on your machine for more.
 ## Your personal CLI tool Makefile
 
 See the Makefile in this repository for some helpful command aliases. Read about [self-documenting Makefiles on my blog](https://victoria.dev/blog/how-to-create-a-self-documenting-makefile/).
-
-## Recommended additions
-
-- GNOME Tweaks
-- [Emoji Selector](https://extensions.gnome.org/extension/1162/emoji-selector/) ❤️✨🦄
-- [Clipboard Indicator](https://extensions.gnome.org/extension/779/clipboard-indicator/)

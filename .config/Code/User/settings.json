@@ -23,7 +23,7 @@
         "editor.wordWrapColumn": 100
     },
     "[sass]": {
-        "editor.defaultFormatter": "syler.sass-indented"
+        "editor.defaultFormatter": "HookyQR.beautify"
     },
     "beautify.config": {
         "css": {
@@ -50,15 +50,6 @@
             "django-html"
         ]
     },
-    "bracketPairColorizer.activeScopeCSS": [
-        "backgroundColor : {color}",
-        "borderStyle : solid",
-        "borderWidth : 1px",
-        "borderColor : {color}; opacity: 0.5"
-    ],
-    "bracketPairColorizer.forceIterationColorCycle": true,
-    "bracketPairColorizer.forceUniqueOpeningColor": true,
-    "bracketPairColorizer.highlightActiveScope": true,
     "cSpell.enableFiletypes": [
         "asciidoc",
         "c",
@@ -158,10 +149,12 @@
     ],
     "debug.console.fontSize": 16,
     "editor.autoClosingBrackets": "always",
+    "editor.bracketPairColorization.enabled": true,
     "editor.detectIndentation": false,
     "editor.fontFamily": "'JetBrains Mono','SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
+    "editor.guides.bracketPairs":"active",
     "editor.matchBrackets": "never",
     "files.associations": {
         "**/*.html": "html",
@@ -191,7 +184,7 @@
     ],
     "python.analysis.logLevel": "Trace",
     "python.formatting.provider": "black",
-    "python.languageServer": "Microsoft",
+    "python.languageServer": "Pylance",
     "python.linting.mypyEnabled": true,
     "python.linting.pylintArgs": [
         "--load-plugins=pylint_django"
@@ -199,8 +192,7 @@
     "python.showStartPage": false,
     "sasslint.enable": false,
     "standard.autoFixOnSave": true,
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "terminal.integrated.fontFamily": "'SourceCodePro+Powerline+Awesome Regular','Source Sans Pro', 'monospace', monospace, 'Droid Sans Fallback'",
     "vsicons.dontShowNewVersionMessage": true,
     "window.closeWhenEmpty": true,

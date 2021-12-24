@@ -17,7 +17,6 @@ install batisteo.vscode-django
 install bibhasdn.django-html
 install bierner.markdown-preview-github-styles
 install byi8220.indented-block-highlighting
-install coenraads.bracket-pair-colorizer
 install davidanson.vscode-markdownlint
 install foxundermoon.shell-format
 install glen-84.sass-lint
