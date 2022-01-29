@@ -13,6 +13,8 @@ function install {
   name="${1}"
   code --install-extension ${name} --force
 }
+
+install arcticicestudio.nord-visual-studio-code
 install batisteo.vscode-django
 install bibhasdn.django-html
 install bierner.markdown-preview-github-styles

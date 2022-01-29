@@ -30,16 +30,29 @@ alias goto='git checkout'
 alias branches='git branch -v'
 alias firewood='for remote in `git branch -r`; do git branch --track ${remote#origin/} $remote; done'
 alias remotes='git remote -v'
+alias forgotsubmodules='git submodule update --init'
 alias checkgit='~/.git-rundown.sh'
 
 # Show contents of dir after action
 function cd () {
-    builtin cd "$1"
+    dir="$1"
+    # cd with no argument should go to ~
+    if [[ -z "$dir" ]]; then
+        builtin cd
+    else
+        builtin cd "$dir"
+    fi
     ls -ACF
 }
 
 # Golang install or upgrade
 function getgolang () {
+    if [ $# -eq 0 ]
+        then
+            firefox https://go.dev/doc/install
+            echo "Please provide the latest version!"
+            return 1
+    fi
     sudo rm -rf /usr/local/go
     wget -q -P tmp/ https://dl.google.com/go/go"$@".linux-amd64.tar.gz
     sudo tar -C /usr/local -xzf tmp/go"$@".linux-amd64.tar.gz
@@ -142,14 +155,6 @@ gitBranch() {
 
 export PS1="${pathC}\w ${gitC}\$(gitBranch) ${pointerC}\$${normalC} "
 
-# Uncomment to use powerline-shell prompt
-# function _update_ps1() {
-#     PS1=$(powerline-shell $?)
-# }
-# if [[ $TERM != linux && ! $PROMPT_COMMAND =~ _update_ps1 ]]; then
-#     PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-# fi
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -157,3 +162,7 @@ export NVM_DIR="$HOME/.nvm"
 # Install Ruby Gems to ~/gems
 export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
+
+# For Go
+export PATH=$PATH:/usr/local/go/bin
+

@@ -25,6 +25,8 @@ install exfat-utils
 install file
 install git
 install htop
+install jq
+install yq
 install nmap
 install openvpn
 install tree
