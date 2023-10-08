@@ -1,6 +1,6 @@
-# Dotfiles for Ubuntu 21.10
+# Dotfiles for Ubuntu 22.04
 
-My preferred starting configuration. Currently using [Ubuntu 21.10 Impish Indri](https://ubuntu.com/download/desktop) + [Pop_OS! Shell](https://github.com/pop-os/shell) for tiling.
+My preferred starting configuration. Currently using [Ubuntu 22.04](https://ubuntu.com/download/desktop) + [Pop_OS! Shell](https://github.com/pop-os/shell) for tiling.
 
 The installation script (`scripts/install.sh`) will install a suggested serving of programs and applications using scripts in the `scripts/programs/` directory. Please verify that you want these before running the script.
 
@@ -8,25 +8,26 @@ Add or delete programs in `scripts/install.sh` and `scripts/programs/` to modify
 
 ## Usage
 
-After installing your fresh OS, [create any SSH keys](https://docs.github.com/articles/generating-an-ssh-key/) you need to access GitHub. See [copy-able commands](#set-up-ssh-keys) for doing this below.
+After installing your fresh OS:
 
-If not generating new keys, place the ones you need in `.ssh/`. Remember to run `ssh-add` as well as `chmod 600 <key_name>`. Then clone this repository:
+1. [Create any SSH keys](https://docs.github.com/articles/generating-an-ssh-key/) you need to access GitHub. See [copy-able commands](#set-up-ssh-keys) for doing this below. If not generating new keys, place the ones you need in `.ssh/`. Remember to run `ssh-add` as well as `chmod 600 <key_name>`.
+2. Then clone this repository:
 
-```sh
-git clone git@github.com:victoriadrake/dotfiles.git
+    ```sh
+    git clone git@github.com:victoriadrake/dotfiles.git
 
-# Or use HTTPS
-git clone https://github.com/victoriadrake/dotfiles.git
-```
+    # Or use HTTPS
+    git clone https://github.com/victoriadrake/dotfiles.git
+    ```
 
-You may optionally like to pass the `--depth` argument to clone only a few of the [most recent commits](https://github.com/victoriadrake/dotfiles/commits/master).
+    You may optionally like to pass the `--depth` argument to clone only a few of the [most recent commits](https://github.com/victoriadrake/dotfiles/commits/master).
 
-Close Firefox if it's open, then run the installation script. (Read it first so you know what it does!)
+3. Close Firefox if it's open, then run the installation script. ([Read it first](scripts/install.sh) so you know what it does!)
 
-```sh
-cd dotfiles/scripts/
-./install.sh
-```
+    ```sh
+    cd dotfiles/scripts/
+    ./install.sh
+    ```
 
 To install the Pop_OS! Shell for window tiling, see [Installation in their repo.](https://github.com/pop-os/shell#installation)
 
@@ -47,6 +48,8 @@ See [How to write Bash one-liners for cloning and managing GitHub and GitLab rep
 ### Terminal theme
 
 There are plenty of themes for Gnome terminal at [Mayccoll/Gogh](https://github.com/Mayccoll/Gogh).
+
+For the Gogh script to work, you may need to have an existing terminal profile named `Default`. This will get overwritten.
 
 Print a 256-color test pattern in your terminal:
 
