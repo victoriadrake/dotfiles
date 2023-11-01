@@ -21,9 +21,7 @@ install bierner.markdown-preview-github-styles
 install byi8220.indented-block-highlighting
 install davidanson.vscode-markdownlint
 install foxundermoon.shell-format
-install glen-84.sass-lint
 install golang.go
-install hookyqr.beautify
 install joaompinto.vscode-graphviz
 install killalau.vscode-liquid-snippets
 install ms-python.python
